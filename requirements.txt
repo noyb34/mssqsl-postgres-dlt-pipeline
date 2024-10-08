@@ -1,0 +1,4 @@
+sqlalchemy>=1.4
+dlt[mssql]>=1.1.0
+dlt[postgres]>=1.1.0
+pymssql

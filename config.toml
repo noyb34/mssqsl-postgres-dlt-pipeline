@@ -1,0 +1,9 @@
+[sources.sql_database]
+table = "table_1" # please set me up!
+
+[runtime]
+dlthub_telemetry = true
+[destination.postgres]
+create_table = true
+create_table_if_not_exists = true
+create_indexes = true
